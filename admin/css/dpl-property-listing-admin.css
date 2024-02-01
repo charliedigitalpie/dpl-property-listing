@@ -1,0 +1,86 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+.dpl-property-listing-settings-wrapper p {
+    display:flex;
+}
+.dpl-property-listing-settings-wrapper span {
+    max-width:150px;
+    display:inline-block;
+    width:100%;
+}
+.dpl-property-listing-settings-wrapper input[type="text"],
+.dpl-property-listing-settings-wrapper input[type="password"]{
+    max-width:328px;
+    width:100%;
+}
+.dpl-property-listing-settings-wrapper select[name="listing_type"],
+.dpl-property-listing-settings-wrapper input[name="search"] {
+    font-size:20px;
+}
+.dpl-property-listing-property-table .property-image {
+    position: absolute;
+  width: 100px;
+  height: 100px;
+}
+.dpl-custom-property-result-table{
+    display: flex;
+    justify-content: space-between;
+}
+.dpl-property-listing-settings-wrapper form {
+    margin-bottom: 20px;
+}
+.dpl-custom-property-result-table .sync-to-db-btn{
+    font-size:20px;
+}
+.dpl-not-in-db {
+    color: #999 !important;
+    font-weight: bold;
+}
+.dpl-updated-in-db {
+    color:green !important;
+    font-weight: bold;
+}
+.dpl-custom-property-loading-sync{
+    margin-bottom:10px;
+    margin-right: 10px;
+    display:none;
+}
+.sync-btn-loading-msg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dpl-custom-property-loading-sync img {
+    width:100%;
+    max-width:20px;
+}
+.dpl-nav-link-item {
+  border: 1px solid #2c77b4;
+  padding: 5px 10px;
+  background-color: #2c77b4;
+  color: #fff;
+}
+.dpl-nav-link-item:hover{
+    background-color: #1d5d91 !important;
+    color: #b1b1b1 !important;
+}
+.dpl-property-listing-pagination strong{
+    border: 1px solid #2c77b4;
+  padding: 5px 10px;
+  background-color: #bce1ff;
+  color: #b1b1b1;
+}
+.dpl-property-listing-pagination-links{
+    margin-top:20px;
+}
+.dpl-img-wrapper {
+    width: 100px;
+  height: 100px;
+  overflow: hidden;
+  position: relative;
+}
+.dpl-table-details p{
+    margin-bottom:0.3em !important;
+}
